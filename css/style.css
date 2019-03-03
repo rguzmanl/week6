@@ -520,12 +520,12 @@ footer a i{
     width: 65%;  
     padding: 1em;
     justify-self: center;
-    grid-row-start: 1;
-  }
-  .objectives{
-    padding: 1.5em;
-    font-size: 8px;
     grid-row-start: 2;
+  }
+  .objectives h1, p{
+    padding: .5em;
+    font-size: 12px;
+    grid-row-start: 1;
   }
 
   .title-menu{
