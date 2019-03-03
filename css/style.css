@@ -1,0 +1,581 @@
+/* header and footer bckg color #0b06f5 */
+
+
+header, footer{
+  width: 100%;
+  min-height: 15vh;
+  background-color: #0b06f5;
+  /* background: #fff url("slim_head.png");  */
+}
+
+main{
+  min-height: 68vh;
+
+}
+
+a.skip{
+  color: white;
+  position: relative;
+  top: -40px;
+  transition: top ease-in .5s;
+}
+
+a.skip:focus{
+  background: #0b06f5; 
+  top: 5px;
+}
+
+
+/* Clickable Logo */
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 20vw;
+}
+
+.logo img{
+  display: block;
+  width: 20vw;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+
+.main-nav{
+  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 16px;
+  margin-bottom: 0;
+  padding: 32px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* list elemtns displayed as inline-block = displayed horizontally next to each other */
+.main-nav li{
+  display: inline-block; 
+}
+
+/* style to each <a> */
+.main-nav li a{
+  text-decoration: none;
+  padding: .5em;
+  margin: 2em;
+  color: rgb(255,255,255)
+  
+}
+
+/* Style to each nav item when current */
+.main-nav li a.current{
+  text-decoration: none;
+  text-align: right;
+  font-weight: bold;
+  color: rgb(95,222,57);
+}
+
+/* Style to each nav item when hover over */
+.main-nav li a:hover,a:focus{
+  border-bottom: 1px solid white;
+}
+
+
+
+.bckgimg{
+  max-width: 100%;
+  height: auto;
+}
+
+
+.about-slmkt{  
+  display: block;
+  padding: 2em;
+  font-size: 16px;
+  line-height: 1.3em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  color: rgb(35, 35, 115);
+
+}
+
+.about-slmkt h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  color: rgb(35, 35, 115);
+  font-size: 20px
+}
+
+
+
+
+
+
+.statement{
+  display: flex;
+  align-items: center;
+  margin: 3%;
+  height: 68vh;
+}
+
+.statement img{
+  width: 45%;  
+}
+
+.objectives{
+  padding: 10%;
+  line-height: 1.5em;
+  font-family: Helvetica;
+}
+
+
+
+
+.brand{
+  display: flex;
+  align-items: center;
+  margin: 12%;
+  height: 100vh;
+}
+
+/* .marca{
+  padding: 10%;
+  line-height: 1.5em;
+  font-family: Helvetica;
+  background: black url("../images/athlete.jpg");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+
+.marca p, h3{
+  width: 45%;
+  color:white;
+  text-shadow: 2px 2px 2px rgb(170, 170, 170);
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+} */
+
+
+
+
+
+
+.title-menu{
+  font-size: 5vh;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  margin: .5em;
+  color: #0b06f5
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+
+
+.menu img{ 
+  width: 35vh;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.menu img:first-child{
+  padding-top: 2em;
+}
+
+.menu img:last-child{
+  padding-bottom: 2em;
+}
+
+
+
+
+
+.market{
+  display: flex;
+  align-items: center;
+  margin: 3%;
+  height: 68vh;
+}
+
+.market img{
+  width: 45%;
+}
+
+.description{
+  padding: 10%;
+  line-height: 1.5em;
+  font-family: Helvetica;
+}
+
+.productos{
+  display: grid;
+  grid-template-columns: auto auto; 
+  justify-items: left;
+  align-items: center;
+}
+
+.productos img{
+  width: 25vh;
+  padding: 2em;
+}
+
+
+
+
+
+
+
+.membresia{
+  display: flex;
+  align-items: center;
+  margin: 3%;
+  height: 68vh;
+}
+
+.membresia img{
+  width: 45%;
+}
+
+.membership{
+  padding: 10%;
+  line-height: 1.5em;
+  font-family: Helvetica;
+}
+
+
+
+footer{
+  /* min-height: 20vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p{
+  /* display: block; */
+  font-size: 3.5vh;
+  color: rgb(255,255,255);
+  /* font-family: 'Saira Extra Condensed', sans-serif; */
+  font-family: 'Open Sans Condensed', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  text-align: center;
+  /* padding: .5em; */
+  margin: .5em;
+}
+
+footer a i{
+  color: white;
+  margin: .5em;
+  /* font-size: 2em; */
+}
+  
+  
+/* MEDIA QUERIES */
+
+/* @media screen and (min-width: 200px) {
+  add alternate css styling
+  consider 1200px for laptop size
+  700px for tablet
+  200px mobile size
+} */
+
+
+
+/* IPAD PRO SIZE */
+@media only screen and (max-width: 1024px) {
+
+  header{
+    min-height: 10vh;
+    /* background-color: #0b06f5; */
+    align-items: center;
+  }
+
+  .main-nav li{
+    display: block;
+    margin: 0;
+    padding: .25em;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto;
+    width: 30vw;
+  }
+  
+  .logo img{
+    width: 30vw;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+
+  .statement{
+    display: inline-grid;
+  }
+  .statement img{
+    width: 68%;  
+    padding: 2em;
+    justify-self: center;
+  }
+
+  .title-menu{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin: .5em;
+    color: #0b06f5
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    
+  }
+  .menu img{
+    width: 25vw;
+    padding: 1em;
+    align-self: center;
+  }
+
+
+  .market{
+    display: inline-grid;
+  }
+  .market img{
+    width: 68%;  
+    padding: 2em;
+    justify-self: center;
+  }
+
+/* CONTINUE WORKING HERE */
+/* CONTINUE WORKING HERE */
+/* CONTINUE WORKING HERE */
+/* CONTINUE WORKING HERE */
+/* CONTINUE WORKING HERE */
+/* CONTINUE WORKING HERE */
+
+  .membresia{
+    display: grid;
+        
+  }
+  .membresia img{
+    width: 60%;  
+    padding: 2em;
+    justify-self: center;
+    grid-row-start: 2;
+  }
+
+  .membership{
+    padding: 2.5em;
+    grid-row-start: 1;
+  }
+
+
+}
+
+/* IPAD SIZE */
+@media only screen and (max-width: 768px) {
+  header{
+    min-height: 10vh;
+  }
+  
+  .main-nav{
+    margin: 0;
+    text-align: left;
+    padding: 1em;
+  }
+
+  .main-nav li{
+    display: block;
+    margin: 0;
+    padding: .25em;
+    font-size: 12px;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto;
+    width: 35vw;
+  }
+  
+  .logo img{
+    display: block;
+    width: 35vw;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .statement{
+    display: inline-grid;
+  }
+  .statement img{
+    width: 60%;  
+    padding: 2em;
+    justify-self: center;
+    grid-row-start: 2;
+  }
+  .objectives{
+    padding: 2.5em;
+    grid-row-start: 1;
+  }
+
+  .title-menu{
+    font-size: 26px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin: .5em;
+    color: #0b06f5
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    
+  }
+  .menu img{
+    width: 25vw;
+    padding: 1em;
+    align-self: center;
+  }
+
+  .market{
+    display: inline-grid;
+  }
+  .market img{
+    width: 60%;  
+    padding: 2em;
+    justify-self: center;
+    grid-row-start: 2;
+  }
+  .description{
+    padding: 2.5em;
+    grid-row-start: 1;
+  }
+
+  .membresia{
+    display: grid;
+        
+  }
+  .membresia img{
+    width: 60%;  
+    padding: 2em;
+    justify-self: center;
+    grid-row-start: 1;
+  }
+
+  .membership{
+    padding: 2.5em;
+    grid-row-start: 2;
+  }
+
+}
+
+/* IPHONE X, CHOSE THIS SIZE SO I CAN ADJUST TEXT TO FIT PHONE SCREEN */
+ @media only screen and (max-width: 375px) {
+  
+  header{
+    min-height: 10vh;
+  }
+  .main-nav{
+    margin: 0;
+    text-align: right;
+    padding: 1em;
+  }
+
+  .main-nav li{
+    display: block;
+    margin: 0;
+    padding: .25em;
+    font-size: 10px;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto;
+    width: 35vw;
+  }
+  
+  .logo img{
+    display: block;
+    width: 35vw;
+    margin: 0 auto;
+    padding: 0;
+  
+  }
+
+  .about-slmkt{
+    display: inline-block;
+    padding: 1em;
+    font-size: 12px;
+    line-height: 1em;
+  }
+  
+  .statement{
+    display: inline-grid;
+  }
+  .statement img{
+    width: 65%;  
+    padding: 1em;
+    justify-self: center;
+    grid-row-start: 1;
+  }
+  .objectives{
+    padding: 1.5em;
+    font-size: 8px;
+    grid-row-start: 2;
+  }
+
+  .title-menu{
+    font-size: 18px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    margin: .5em;
+    color: #0b06f5
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    
+  }
+  .menu img{
+    width: 25vw;
+    padding: 1em;
+    align-self: center;
+  }
+
+  .market{
+    display: inline-grid;
+  }
+  .market img{
+    width: 60%;  
+    padding: 1em;
+    justify-self: center;
+    grid-row-start: 2;
+  }
+  .description{
+    font-size: 13px;
+    padding: 1em;
+    grid-row-start: 1;
+  }
+
+  .membresia{
+    display: grid;
+        
+  }
+  .membresia img{
+    width: 65%;  
+    padding: 2em;
+    justify-self: center;
+    grid-row-start: 2;
+  }
+
+  .membership{
+    font-size: 10px;
+    padding: 1em;
+    grid-row-start: 1;
+  }
+
+} 
