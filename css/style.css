@@ -419,7 +419,6 @@ footer a i{
     grid-row-start: 2;
   }
   .objectives{
-    padding: 2.5em;
     grid-row-start: 1;
     padding: 1.5em;
     font-size: 8px;
@@ -526,7 +525,7 @@ footer a i{
   }
   .objectives p{
     padding: .5em;
-    font-size: 5px;
+    font-size: 8px;
     grid-row-start: 1;
   }
 
