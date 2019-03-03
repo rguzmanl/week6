@@ -421,6 +421,8 @@ footer a i{
   .objectives{
     padding: 2.5em;
     grid-row-start: 1;
+    padding: 1.5em;
+    font-size: 8px;
   }
 
   .title-menu{
@@ -522,9 +524,9 @@ footer a i{
     justify-self: center;
     grid-row-start: 2;
   }
-  .objectives h1, p{
+  .objectives p{
     padding: .5em;
-    font-size: 12px;
+    font-size: 5px;
     grid-row-start: 1;
   }
 
